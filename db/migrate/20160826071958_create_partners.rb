@@ -9,8 +9,7 @@ class CreatePartners < ActiveRecord::Migration
       t.string :telephone
       t.text :address
       t.string :city
-      t.string :state_string
-
+      t.string :state
       t.timestamps null: false
     end
   end

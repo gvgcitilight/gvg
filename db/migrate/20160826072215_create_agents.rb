@@ -6,7 +6,7 @@ class CreateAgents < ActiveRecord::Migration
       t.string :email
       t.string :mobile_number
       t.string :city
-      t.string :your_profile
+      t.text :your_profile
 
       t.timestamps null: false
     end
