@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'pages/mulberry_mist'
+
+  get 'pages/pinnacle'
+
+  get 'pages/silver_mist'
+
+  get 'pages/rk_grand'
+
+  get 'pages/lotus'
+
+  get 'pages/sai_gowri'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
