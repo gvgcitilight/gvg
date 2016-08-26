@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  get 'pages/about'
+
+  get 'pages/carrer'
+
+  get 'pages/partner_with_us'
+
+  get 'pages/contact'
+
+  get 'pages/investor'
+
+  get 'pages/main_page'
+
+  get 'pages/nri'
+
+  get 'pages/referrals'
+
   resources :agents
   resources :partners
   get 'project/mulberry_mist'

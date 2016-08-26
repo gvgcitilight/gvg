@@ -1,33 +1,43 @@
 require 'test_helper'
 
 class PagesControllerTest < ActionController::TestCase
-  test "should get mulberry_mist" do
-    get :mulberry_mist
+  test "should get about" do
+    get :about
     assert_response :success
   end
 
-  test "should get pinnacle" do
-    get :pinnacle
+  test "should get carrer" do
+    get :carrer
     assert_response :success
   end
 
-  test "should get silver_mist" do
-    get :silver_mist
+  test "should get partner_with_us" do
+    get :partner_with_us
     assert_response :success
   end
 
-  test "should get rk_grand" do
-    get :rk_grand
+  test "should get contact" do
+    get :contact
     assert_response :success
   end
 
-  test "should get lotus" do
-    get :lotus
+  test "should get investor" do
+    get :investor
     assert_response :success
   end
 
-  test "should get sai_gowri" do
-    get :sai_gowri
+  test "should get main_page" do
+    get :main_page
+    assert_response :success
+  end
+
+  test "should get nri" do
+    get :nri
+    assert_response :success
+  end
+
+  test "should get referrals" do
+    get :referrals
     assert_response :success
   end
 

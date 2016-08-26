@@ -1,19 +1,25 @@
 class PagesController < ApplicationController
-  def mulberry_mist
+  def about
   end
 
-  def pinnacle
+  def carrer
   end
 
-  def silver_mist
+  def partner_with_us
   end
 
-  def rk_grand
+  def contact
   end
 
-  def lotus
+  def investor
   end
 
-  def sai_gowri
+  def main_page
+  end
+
+  def nri
+  end
+
+  def referrals
   end
 end
