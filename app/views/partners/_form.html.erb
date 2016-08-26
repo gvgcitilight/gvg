@@ -1,0 +1,53 @@
+<%= form_for(@partner) do |f| %>
+  <% if @partner.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@partner.errors.count, "error") %> prohibited this partner from being saved:</h2>
+
+      <ul>
+      <% @partner.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :contact_person %><br>
+    <%= f.text_field :contact_person %>
+  </div>
+  <div class="field">
+    <%= f.label :name_of_the_company %><br>
+    <%= f.text_field :name_of_the_company %>
+  </div>
+  <div class="field">
+    <%= f.label :website %><br>
+    <%= f.text_field :website %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :mobile %><br>
+    <%= f.text_field :mobile %>
+  </div>
+  <div class="field">
+    <%= f.label :telephone %><br>
+    <%= f.text_field :telephone %>
+  </div>
+  <div class="field">
+    <%= f.label :address %><br>
+    <%= f.text_area :address %>
+  </div>
+  <div class="field">
+    <%= f.label :city %><br>
+    <%= f.text_field :city %>
+  </div>
+  <div class="field">
+    <%= f.label :state_string %><br>
+    <%= f.text_field :state_string %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

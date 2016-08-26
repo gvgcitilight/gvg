@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :agents
+  resources :partners
   get 'project/mulberry_mist'
 
   get 'project/pinnacle'
